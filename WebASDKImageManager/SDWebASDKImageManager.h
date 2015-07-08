@@ -1,7 +1,7 @@
 // Copyright 2015-present James Ide. All rights reserved.
 
 #import <AsyncDisplayKit/AsyncDisplayKit.h>
-#import <SDWebImage/SDWebImageManager.h>
+#import "SDWebImageManager.h"
 
 @interface SDWebASDKImageManager : NSObject <ASImageCacheProtocol, ASImageDownloaderProtocol>
 

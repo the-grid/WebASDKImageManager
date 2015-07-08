@@ -2,8 +2,8 @@
 
 #import "SDWebASDKImageManager.h"
 
-#import <SDWebImage/SDImageCache.h>
-#import <SDWebImage/SDWebImageManager.h>
+#import "SDImageCache.h"
+#import "SDWebImageManager.h"
 
 @implementation SDWebASDKImageManager
 
