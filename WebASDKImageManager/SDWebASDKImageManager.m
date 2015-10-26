@@ -27,6 +27,11 @@
     return self;
 }
 
+- (instancetype)init NS_UNAVAILABLE
+{
+    return nil;
+}
+
 #pragma mark - ASImageCacheProtocol
 
 - (void)fetchCachedImageWithURL:(NSURL *)URL callbackQueue:(dispatch_queue_t)callbackQueue completion:(void (^)(CGImageRef imageFromCache))completion
